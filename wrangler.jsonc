@@ -17,13 +17,13 @@
 	// Workers for Platforms dispatch namespace
 	// This is the core binding that enables multi-tenant Worker deployment
 	// The namespace will be auto-created by the setup script
-	"dispatch_namespaces": [
-		{
-			"binding": "dispatcher",
-			"namespace": "workers-for-platforms-template",
-			"remote": true
-		}
-	],
+	//"dispatch_namespaces": [
+	//	{
+		//	"binding": "dispatcher",
+		//	"namespace": "workers-for-platforms-template",
+		//	"remote": true
+	//	}
+	// ],
 	// D1 Database for storing project metadata
 	// The database will be auto-provisioned during deployment
 	"d1_databases": [
